@@ -34,6 +34,25 @@ Este archivo, se encarga de realizar toda la carga en memoria de la data conteni
 *CargarFiltrado: funcion encargada de generar el documento Registros para ser revisados.txt y agregar su contenido
 *ValidarDocumento: Funcion que se encarga de validar que el documento seleccionado por el usuario contenga el formato correcto de columnas separadas por ;
 * ModOrigin: funcion que se encarga de aplicar una recarga de la informacion perteneciente al archivo base, luego de haber sido repardos y filtrado, los registros correspondites.
-*ReporteEjecutivo: Funcion que se encarga de preparar la data para ser insertada en un reporte con el formato pdf
+*ReporteEjecutivo: Funcion que se encarga de preparar la data de contabilidad de perdidas por tema de Descuentos. Para posteriormente ser insertada en un reporte con el formato pdf
+*ReporteTecnico: Funcion que se encarga de preparar la data de Ejecucion del sistema. Para posteriormente ser insertada en un reporte con el formato pdf
+
+
+Ejecucion de sistema con archivo .exe:
+
+1. Es necesario descargar la carpeta dist, donde se encuentra en su interior otra carpeta con el nombre Manejo de Archivos. Dentro de esa carpeta podra encontrar con el mismo nombre un archivo con la extension .exe
+2. Para un funcionamiento optimo de la aplicacion se recomienda ejecutarla en un distribucion de windows de 32 bits.
+3. Todo los reportes y archivos generados por el sistema (log y archivo de registros filtrados), quedaran almacenados en su carpeta raiz.
+
+Ejecucion por linea de comando:
+
+1. Es necesario tener instalada una distribucion de python 3 o superior, idealmente la ultima version disponible.
+2. Tambien es necesario tener instalado el gestor de paquetes pip, idealmente su ultima version disponible.
+3. Tener instlada la libreria reportlab, la cual se encarga de la generacion de archivos pdf, puede instalarla con el comando 'pip install reportlab'
+4. Ya puede proceder a descargar los 3 archivos fuente, con la extension .py, ademas de la carpeta img. Todos estos elementos deben encontrarse almacenados en un mismo directorio.
+5. Para su ejecucion solo debe ingresar al directorio que contiene todos los elementos descargados del sistema e ingresar la siguiente sentencia 'python ManejoArchivo.py' y se iniciara el sistema.
+6. Todos los archivos generados por el sistema (log, txt, pdf), quedaran almacenados en el mismo directorio en donde guardo los componentes del sistema.
+
+
 
 
