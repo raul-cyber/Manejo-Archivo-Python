@@ -3,7 +3,6 @@ Desafío Practico Entel.
 
 Sistema de Manipulacion de Archivos.
 ------------------------------------
-hola como estas este es una prueba
 *Autor: Raúl García Vallejos
 *Version: 1.0
 *Desarrollado con python 3
