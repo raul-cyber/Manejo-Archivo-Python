@@ -1,0 +1,1 @@
+en esta carpeta colocare la llave privada para conectarme al server por sh
